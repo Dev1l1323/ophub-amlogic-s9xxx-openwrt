@@ -169,10 +169,10 @@ on:
       kernel_repo:
         description: "Set the kernel repository"
         required: false
-        default: "ophub/kernel"
+        default: "Dev1l1323/kernel"
         type: choice
         options:
-          - ophub/kernel
+          - Dev1l1323/kernel
       kernel_usage:
         description: "Set the tags of the stable kernel."
         required: false
@@ -194,10 +194,10 @@ on:
       builder_name:
         description: "Set OpenWrt builder signature."
         required: false
-        default: "ophub"
+        default: "Dev1l1323"
         type: choice
         options:
-          - ophub
+          - Dev1l1323
           - angel
           - yourname
 
