@@ -79,7 +79,7 @@ firmware_repo="https://github.com/ophub/firmware"
 script_repo="https://github.com/ophub/luci-app-amlogic"
 
 # Set the kernel download repository from github.com
-kernel_repo="https://github.com/ophub/kernel"
+kernel_repo="https://github.com/Dev1l1323/kernel"
 # Set the tags(kernel_xxx) of the default kernel that can be replaced via the [ -u ] parameter
 default_tags="stable"
 # Set the tags(kernel_xxx) of the specific kernel, such as 5.15.y, 6.1.y, etc.
@@ -100,7 +100,7 @@ auto_kernel="true"
 make_board="all"
 
 # Set OpenWrt firmware size (Unit: MiB, boot_mb >= 256, root_mb >= 512)
-boot_mb="256"
+boot_mb="512"
 root_mb="1024"
 # Set OpenWrt builder signature
 builder_name=""
