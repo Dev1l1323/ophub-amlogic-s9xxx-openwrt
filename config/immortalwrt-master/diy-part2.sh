@@ -26,6 +26,9 @@ echo "DISTRIB_SOURCECODE='immortalwrt'" >>package/base-files/files/etc/openwrt_r
 rm -rf package/luci-app-amlogic
 git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 #
+# Add helloworld ssr plus+
+rm -rf package/helloworld
+git clone https://github.com/fw876/helloworld.git package/helloworld
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
