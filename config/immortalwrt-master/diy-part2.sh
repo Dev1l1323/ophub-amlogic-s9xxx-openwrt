@@ -30,4 +30,4 @@ git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
 # ------------------------------- Other ends -------------------------------
-
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
